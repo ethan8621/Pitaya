@@ -37,6 +37,9 @@
     <Compile Include="www\myhealth\__init__.py" />
     <Compile Include="www\www\settings.py" />
     <Compile Include="www\www\urls.py" />
+    <Compile Include="www\www\views.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="www\www\wsgi.py" />
     <Compile Include="www\www\__init__.py" />
   </ItemGroup>
