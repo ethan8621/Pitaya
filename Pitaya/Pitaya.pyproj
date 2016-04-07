@@ -5,13 +5,16 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>bf2b9615-ffe6-46b4-949f-79da3cbc0a72</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Pitaya.py</StartupFile>
+    <StartupFile>www\manage.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>Pitaya</Name>
     <RootNamespace>Pitaya</RootNamespace>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <CommandLineArguments>runserver 9001</CommandLineArguments>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -23,6 +26,34 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Pitaya.py" />
+    <Compile Include="www\manage.py" />
+    <Compile Include="www\myhealth\admin.py" />
+    <Compile Include="www\myhealth\apps.py" />
+    <Compile Include="www\myhealth\migrations\__init__.py" />
+    <Compile Include="www\myhealth\models.py" />
+    <Compile Include="www\myhealth\tests.py" />
+    <Compile Include="www\myhealth\urls.py" />
+    <Compile Include="www\myhealth\views.py" />
+    <Compile Include="www\myhealth\__init__.py" />
+    <Compile Include="www\www\settings.py" />
+    <Compile Include="www\www\urls.py" />
+    <Compile Include="www\www\wsgi.py" />
+    <Compile Include="www\www\__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="deployment\" />
+    <Folder Include="www\" />
+    <Folder Include="www\myhealth\" />
+    <Folder Include="www\myhealth\migrations\" />
+    <Folder Include="www\www\" />
+    <Folder Include="www\www\__pycache__\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="www\db.sqlite3" />
+    <Content Include="www\www\__pycache__\settings.cpython-34.pyc" />
+    <Content Include="www\www\__pycache__\urls.cpython-34.pyc" />
+    <Content Include="www\www\__pycache__\wsgi.cpython-34.pyc" />
+    <Content Include="www\www\__pycache__\__init__.cpython-34.pyc" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
