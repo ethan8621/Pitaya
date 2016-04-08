@@ -29,6 +29,7 @@
     <Compile Include="www\manage.py" />
     <Compile Include="www\myhealth\admin.py" />
     <Compile Include="www\myhealth\apps.py" />
+    <Compile Include="www\myhealth\migrations\0001_initial.py" />
     <Compile Include="www\myhealth\migrations\__init__.py" />
     <Compile Include="www\myhealth\models.py" />
     <Compile Include="www\myhealth\tests.py" />
@@ -48,11 +49,13 @@
     <Folder Include="www\" />
     <Folder Include="www\myhealth\" />
     <Folder Include="www\myhealth\migrations\" />
+    <Folder Include="www\myhealth\migrations\__pycache__\" />
     <Folder Include="www\www\" />
     <Folder Include="www\www\__pycache__\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="www\db.sqlite3" />
+    <Content Include="www\myhealth\migrations\__pycache__\__init__.cpython-34.pyc" />
     <Content Include="www\www\__pycache__\settings.cpython-34.pyc" />
     <Content Include="www\www\__pycache__\urls.cpython-34.pyc" />
     <Content Include="www\www\__pycache__\wsgi.cpython-34.pyc" />
