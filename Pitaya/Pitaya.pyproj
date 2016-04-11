@@ -47,6 +47,9 @@
   <ItemGroup>
     <Folder Include="deployment\" />
     <Folder Include="www\" />
+    <Folder Include="www\myhealth\static\" />
+    <Folder Include="www\myhealth\static\myhealth\" />
+    <Folder Include="www\myhealth\static\myhealth\images\" />
     <Folder Include="www\myhealth\templates\" />
     <Folder Include="www\myhealth\templates\myhealth\" />
     <Folder Include="www\userregister\" />
@@ -60,6 +63,8 @@
   <ItemGroup>
     <Content Include="www\db.sqlite3" />
     <Content Include="www\myhealth\migrations\__pycache__\__init__.cpython-34.pyc" />
+    <Content Include="www\myhealth\static\myhealth\images\background.gif" />
+    <Content Include="www\myhealth\static\myhealth\style.css" />
     <Content Include="www\myhealth\templates\myhealth\detail.html" />
     <Content Include="www\myhealth\templates\myhealth\index.html" />
     <Content Include="www\myhealth\templates\myhealth\results.html" />
