@@ -36,6 +36,14 @@
     <Compile Include="www\myhealth\urls.py" />
     <Compile Include="www\myhealth\views.py" />
     <Compile Include="www\myhealth\__init__.py" />
+    <Compile Include="www\userregister\admin.py" />
+    <Compile Include="www\userregister\apps.py" />
+    <Compile Include="www\userregister\migrations\__init__.py" />
+    <Compile Include="www\userregister\models.py" />
+    <Compile Include="www\userregister\tests.py" />
+    <Compile Include="www\userregister\urls.py" />
+    <Compile Include="www\userregister\views.py" />
+    <Compile Include="www\userregister\__init__.py" />
     <Compile Include="www\www\settings.py" />
     <Compile Include="www\www\urls.py" />
     <Compile Include="www\www\views.py">
@@ -58,6 +66,9 @@
     <Folder Include="www\myhealth\migrations\" />
     <Folder Include="www\myhealth\migrations\__pycache__\" />
     <Folder Include="www\helpdoc\" />
+    <Folder Include="www\userregister\migrations\" />
+    <Folder Include="www\userregister\templates\" />
+    <Folder Include="www\userregister\static\" />
     <Folder Include="www\www\" />
     <Folder Include="www\www\templates\" />
     <Folder Include="www\www\templates\admin\" />
@@ -72,6 +83,7 @@
     <Content Include="www\myhealth\templates\myhealth\detail.html" />
     <Content Include="www\myhealth\templates\myhealth\index.html" />
     <Content Include="www\myhealth\templates\myhealth\results.html" />
+    <Content Include="www\userregister\templates\index.html" />
     <Content Include="www\www\templates\admin\base_site.html" />
     <Content Include="www\www\__pycache__\settings.cpython-34.pyc" />
     <Content Include="www\www\__pycache__\urls.cpython-34.pyc" />

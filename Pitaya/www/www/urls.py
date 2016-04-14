@@ -21,5 +21,6 @@ from . import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^myhealth/', include('myhealth.urls')),
+    url(r'^accounts/', include('userregister.urls')),
     url(r'^$', views.index, name='index'),
 ]
