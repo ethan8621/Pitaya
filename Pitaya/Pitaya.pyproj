@@ -55,12 +55,14 @@
   <ItemGroup>
     <Folder Include="deployment\" />
     <Folder Include="www\" />
+    <Folder Include="www\common\jquery\" />
     <Folder Include="www\myhealth\static\" />
     <Folder Include="www\myhealth\static\myhealth\" />
     <Folder Include="www\myhealth\static\myhealth\images\" />
     <Folder Include="www\myhealth\static\myhealth\js\" />
     <Folder Include="www\myhealth\templates\" />
     <Folder Include="www\myhealth\templates\myhealth\" />
+    <Folder Include="www\common\" />
     <Folder Include="www\userregister\" />
     <Folder Include="www\myhealth\" />
     <Folder Include="www\myhealth\migrations\" />
@@ -75,6 +77,7 @@
     <Folder Include="www\www\__pycache__\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="www\common\jquery\jquery-2.2.3.js" />
     <Content Include="www\db.sqlite3" />
     <Content Include="www\myhealth\migrations\__pycache__\__init__.cpython-34.pyc" />
     <Content Include="www\myhealth\static\myhealth\images\background.gif" />
